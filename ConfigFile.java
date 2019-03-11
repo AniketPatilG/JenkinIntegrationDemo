@@ -26,7 +26,7 @@ public class ConfigFile {
     			
                 Section common = ini.get("Common");
                                 String   environment = common.get("Environment");
-                          System.out.println(environment);
+                      //    System.out.println(environment);
                                 return environment;
                 
     }
