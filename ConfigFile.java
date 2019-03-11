@@ -43,7 +43,7 @@ public class ConfigFile {
 					e.printStackTrace();
 				}      
                 if (val!= null){
-                    //  System.out.println("Value of '"+object+"' is :- "+val  );
+                     System.out.println("Value of '"+object+"' is :- "+val  );
                 }else{
                       System.out.println("No value found in Config File");
                 }
