@@ -1,0 +1,238 @@
+%-------------------------
+% Resume in Latex
+% Author : Aniket Patil
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+\usepackage{fontawesome}
+\usepackage{setspace}
+
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+
+  \textbf{\Large Aniket Patil}  \\ Email : \color{blue} \href{mailto:ani.gurjar007@gmail.com}{ani.gurjar007@gmail.com}
+  \\Mobile : \color{blue}
+  \href{tel:7349085599}{+91-7349085599}
+      \\
+    \href{https://github.com/AniketPatilG/} {\color{blue} Github : \faGithub \quad}
+      \href{https://www.linkedin.com/in/aniket-patil-b75a5b115} {\color{blue}LinkedIn : \faLinkedinSquare} \par
+  
+\end{tabular*}
+
+%-----------EXPERIENCE-----------------
+
+\section{Professional Experience}
+   \resumeSubHeadingListStart
+    \resumeSubheading
+      {Conduent Business Services India Llp}{Bangalore, India}
+      {Quality Assurance}{Mar 2018 - Present} &
+      
+      {  Roles and Responsibilities :}     
+    \begin{itemize}
+          \item
+          {Designed Behavior Driven Development (Cucumber) Framework Using Selenium webdriver, Maven and java. }
+      \item
+          {Integrated Jenkins in Developed Framework for CI and CD using GitHub.}
+      \item 
+          {Developed a UI Interface which will trigger the execution.}
+      \item
+          {Defect Reporting and tracking using TFS- Defect management tool.}
+      \item
+        {Taken the leadership of project and managing the new Resources.}
+      \item
+        {Written the Basic queries on MS-SQL based on project requirement. }
+\end{itemize}
+
+
+  \resumeSubHeadingListEnd
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {emids Technologies Pvt Ltd}{Bangalore, India}
+      {Associate Analyst}{June 2017 - March 2018} &
+      
+      {Roles and Responsibilities :}
+       \begin{itemize}
+           \item 
+       
+{Analysis of the requirements for new features and preparation of test scenarios and designing test cases and test plan for Testing Applications. }
+      \item
+          {Interaction with onsite for any queries and attending Status Calls on daily basis.}
+      \item
+          {Taken the Module ownership and developed the new Scripts based on requirement. }
+       \item 
+          {Used to execute All test scripts on every weekend and sent the RCA to onsite manager.}
+        \item
+        {Execution of Test Cases and logged defects and tracked those in TFS. And attending defect triage calls.}
+        \item
+        {Used to written Basic Select the Cache-DB Queries based on the Test Scripts. }
+\end{itemize}
+
+
+  \resumeSubHeadingListEnd
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    
+    \resumeSubheading
+      {Salesforce}{Bangalore, India}
+      {Conduent Business Service}{April 2018 - Present}
+      \resumeItemListStart
+      
+        \resumeItem{Client}
+          {Pfizer.}
+        \resumeItem{Language}
+          {Core Java, Basic JavaScript .}          
+        \resumeItem{Framework}
+          {Cucumber (Behavior Driven Development) Framework.}
+        \resumeItem{Tools}
+          {Selenium Web driver, Maven, SQL, TFS, Jenkins.}
+        \resumeItem{Project Description}
+          {Salesforce is an cloud-based Application. And Pfizer is one of the world's larges American pharmaceutical corporation.The company develops and produces medicines and vaccines for a wide range of medical discipline & providing the medicines who falls under PAP Eligibility.  }
+   \resumeSubHeadingListEnd  
+
+    \resumeSubheading
+      {CPIS (Conduent Payment Integrity Solutions) }{Bangalore, India}
+      {Conduent Business Service}{July 2018 - Present}
+      \resumeItemListStart
+        \resumeItem{Language}
+          {Core Java, Basic JavaScript .}          
+        \resumeItem{Framework}
+          {Cucumber (Behavior Driven Development) Framework.TestNG Framework}
+        \resumeItem{Tools}
+          {Selenium Web driver, Maven, SQL, TFS,TestNG, Jenkins.}
+        \resumeItem{Project Description}
+          {CPIS(Conduent Payment Integrity Solutions) offers the services that will greatly enhance ability to detect, validate and recover benefit overpayments, as well as identifying potential fraud, waste and abuse.  }
+      \resumeItemListEnd
+  
+  \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+  \resumeSubheading
+      {Juvo}{Bangalore, India}
+      {emids Technologies Pvt Ltd}{June 2017 - April 2018}
+      \resumeItemListStart
+        \resumeItem{Client}
+          {Conduent Business Services Formerly Xerox. }      
+        \resumeItem{Language}
+          {VB Script, Basic Shell Script.}
+        \resumeItem{Framework}
+          {Hybrid Framework.}
+        \resumeItem{Tools}
+          {Test Complete, VSTS, TFS, Cache DB.}
+        \resumeItem{Project Description}
+          {Juvo is a Health Care based Silver light Application embedded on WebBrowser. Juvo is basically an facility management application and Juvo is uses by Providers, Nurses, and other facility managament peoples.}
+
+    \resumeSubHeadingListEnd
+
+  
+%--------PROGRAMMING SKILLS------------
+\section{Technical Skills}
+ \begin{itemize}
+    \setlength\itemsep{0em}
+    \item \textbf{Languages}{:Java, JavaScript, VbScript.}
+    \item \textbf{Frameworks}{: Hybrid Framework, Cucumber (BDD) Framework , TestNG (TDD) Framework.}
+    \item \textbf{Databases}{:SQL, Cache-DB.}
+    \item \textbf{Tools}{: Test Complete, Selenium Webdriver, TFS, Jenkins, VSTS, Maven, GitHub. }
+ \end{itemize}  
+  %-----------EDUCATION-----------------
+\section{Education}
+  
+    \resumeSubheading
+    {Rajiv Gandhi Proudyogiki Vishwavidyalaya}{Bhopal, India}
+      {B.Tech;   CGPA: 68\%}{July 2012 -- June 2016}
+    \resumeSubheading
+      {Shri Agrasen Vidhyalaya}{Indore, Madhya Pradesh}
+      {Class XII;  68\%}{2011 --  2012}
+    \resumeSubheading
+      {Merit Higher Secondary School}{Indore, Madhya Pradesh}
+      {Class X;  78\%}{2009 -- 2010} 
+
+%%-----------Awards and Achievements-----------------
+\section{Awards and Achievements}
+  \begin{itemize}
+    \setlength\itemsep{0em}
+    \item \textbf{ Star Performer in month of August.}
+    \item \textbf{Star Performer in month of January. }
+  \end{itemize}
+  %-----------PROJECTS-----------------
+
+%-----------PROJECTS-----------------
+\section{Interests}
+  \begin{itemize}
+    \setlength\itemsep{0em}
+    \item \textbf{ Design and Analysis of Automation Frameworks.}
+    \item \textbf{Competitive Programming on online coding platform. }
+  \end{itemize}
+  %-----------PROJECTS-----------------
+
+
+\end{document}
